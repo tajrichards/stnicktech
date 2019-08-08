@@ -4,10 +4,17 @@ body {
 }
 
 
-
-.hero {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.topnav {
+  background-color: black;
+  overflow: hidden;
 }
+
+.topnav a {
+  text-align: center;
+  color: white;
+  float: left;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Change the link color on hover */
