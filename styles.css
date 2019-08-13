@@ -1,7 +1,11 @@
 body, html {
-  height: 100%
+  height: 100%;
+  font-family: Geneva;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 .topnav {
   background-color: black;
@@ -89,4 +93,31 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.boxes .box img {
+  display: block;
+  width: 100%;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
