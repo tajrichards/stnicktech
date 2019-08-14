@@ -87,6 +87,18 @@ body, html {
   color: white;
 }
 
+.partners {
+  background-color: DarkGray;
+}
+
+.contacts {
+  background-color: Gainsboro;
+}
+
+.information {
+  background-color: LightGray;
+}
+
 .footer {
   position: fixed;
   left: 0;
