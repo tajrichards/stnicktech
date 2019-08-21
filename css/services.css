@@ -1,0 +1,6 @@
+@import url("normalize.css");
+
+body, html {
+  height: 100%;
+  font-family: 'Geneva', 'Helvetica', 'Arial', sans-serif;
+}
